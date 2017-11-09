@@ -1,0 +1,15 @@
+{
+  "short_name": "AVHappenings",
+  "name": "Antelope Valley Happenings",
+  "icons": [
+    {
+      "src": "favicon.png",
+      "sizes": "512x512",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": "./index.html",
+  "display": "standalone",
+  "theme_color": "#F2711C",
+  "background_color": "#2185D0"
+}

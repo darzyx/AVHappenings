@@ -1,0 +1,63 @@
+html, body, #root, .app-wrapper {
+  height: auto !important;  /* Overwrites semantic.min.css */
+  min-height: 100vh !important;
+
+  font-size: calc(7px + 1vw) !important;  /* Overwrites semantic.min.css */
+}
+
+html {
+  background-color: #2185D0 !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: sans-serif;
+}
+
+.app-wrapper {
+  position: relative;
+
+  padding-bottom: calc(80px + 5vw);  /* Height of the AppFooter */
+}
+
+.bar-wrapper {
+  z-index: 2;
+  position: relative;
+
+  height: calc(50px + 5vw); /* Height of the sticky Bar */
+}
+
+.center-style {
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.loading-page {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #FBBD08;
+  background-color: #2185D0;
+}
+
+.undraggable {
+  user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+
+.ui.comments {
+  max-width: none !important; /* Overwrites semantic.min.css */
+}
